@@ -1,0 +1,12 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1  # Hz
+
+    your_controller_name:
+      type: your_controller_name/YourControllerName
+
+your_controller_name/YourControllerName:
+  ros__parameters:
+    param1: 0.5
+    param2: "value"
+    param3: true

@@ -1,0 +1,17 @@
+# Allowed types are: none, bool, double, int, string, bool_array, double_array, int_array, string_array, double_array_fixed, int_array_fixed, string_array_fixed, string_fixed
+custom_param_name:
+  param1: {
+    type: double,
+    default_value: 0.5,
+    description: "Description for param1",
+  }
+  param2: {
+    type: string,
+    default_value: "value",
+    description: "Description for param2",
+  }
+  param3: {
+    type: bool,
+    default_value: true,
+    description: "Description for param3",
+  }
